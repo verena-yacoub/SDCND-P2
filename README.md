@@ -21,7 +21,8 @@ The goals / steps of this project are the following:
 [image3]: ./fig_for_writeup/normalized.png 
 [image4]: ./fig_for_writeup/gray-normalized.png 
 [image5]: ./fig_for_writeup/graph.png 
-[image6]: ./fig_for_writeup/featuremap.png 
+[image6]: ./fig_for_writeup/featuremap.png
+[image7]: ./fig_for_writeup/new.png 
  
 
 ## Rubric Points and their discussion
@@ -110,7 +111,7 @@ LeNet architecture was chosen for this project:
 * I thought it would be relevant as it contains 2 convolution layers to enhance feature extraction and recognition of the images each accompanied with RELU activation to add non linearity to the model, dropout layer to reduce overfitting and fully connected layers to combine the feature from previous layers. 
 * In order to monitor whether the model is overfitting in other words the gap between the validation and training accuracy is enlarging or not over epochs the following graph of both accuracies was plotted, and we can notice that the gap is relatively stable which proves that the model is working okay
 
-![alt text][image]
+![alt text][image5]
  
 
 ### Test a Model on New Images
@@ -118,7 +119,9 @@ LeNet architecture was chosen for this project:
 #### 1. Choose five German traffic signs found on the web and provide them in the report. For each image, discuss what quality or qualities might be difficult to classify.
 
 Here are 6 German traffic signs that I found on the web in which Classes with ew example numbers are included (25,37,38)
+![alt text][image7]
 
+They were grayscaled and normalized first after classification
 
 #### 2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
 
@@ -133,7 +136,7 @@ Here are the results of the prediction:
 | Slippery Road			| Slippery Road      							|
 
 
-The model was able to correctly guess 4 of the 5 traffic signs, which gives an accuracy of 80%. This compares favorably to the accuracy on the test set of ...
+The model was able to correctly guess 6 of the 6 traffic signs, which gives an accuracy of 100%. 
 
 #### 3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)
 
