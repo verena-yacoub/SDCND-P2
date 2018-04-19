@@ -208,4 +208,8 @@ For the sixth image ...
 ### (Optional) Visualizing the Neural Network (See Step 4 of the Ipython notebook for more details)
 #### 1. Discuss the visual output of your trained network's feature maps. What characteristics did the neural network use to make classifications?
 
+In the following figure the 6 features extracted from the first convolutional layer is displayed 
+We can see that each feature map is performing different feature extracting approach. 
+For example, regarding the first layer displayed here, we can tell that the layer is performing blurring and edge detection from different angles
+![alt text][image6]
 
