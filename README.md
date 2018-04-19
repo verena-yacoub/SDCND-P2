@@ -127,13 +127,14 @@ They were grayscaled and normalized first after classification
 
 Here are the results of the prediction:
 
-| Image			        |     Prediction	        					| 
-|:---------------------:|:---------------------------------------------:| 
-| Stop Sign      		| Stop sign   									| 
-| U-turn     			| U-turn 										|
-| Yield					| Yield											|
-| 100 km/h	      		| Bumpy Road					 				|
-| Slippery Road			| Slippery Road      							|
+| Image			        |     Prediction	        					| Class number
+|:---------------------------------------:|:---------------------------------------------:|:----:| 
+| Road work      		| Road work    									| 25|
+| Go straight or left    			| Go straight or left  								|37|
+| General Caution				| General Caution										|18|
+|Right-of- way at the next intersection	      		| Right-of- way at the next intersection					 				|11|
+| Speed limit 80		|  Speed limit 80    							|5|
+| Keep right		| Keep right	   							|38|
 
 
 The model was able to correctly guess 6 of the 6 traffic signs, which gives an accuracy of 100%. 
