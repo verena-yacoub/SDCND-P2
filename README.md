@@ -56,10 +56,10 @@ Here is an exploratory visualization of the data set. First the code is displayi
   below is a picture for the normalized colored images
   ![alt text][image3]
   
-  and a picture of grayscaling+normalization
+  and a picture of grayscaling+normalization with the corresponding labels
   ![alt text][image4]
   
-  * Note For data augmentation: as realized from the histogram above, some classes have few training examples which might cause defects in the training process, however data augmentation is not performed in this code, but a suggestion for it would be to augment the data of the classes with less examples after editing the existing samples randomly to balance the training data. 
+* Note For data augmentation: as realized from the histogram above, some classes have few training examples which might cause defects in the training process, however data augmentation is not performed in this code, but a suggestion for it would be to augment the data of the classes with less examples after editing the existing samples randomly to balance the training data. //
   Noting also: that in the new images chosen I was keen to include some samples of the classes with few training examples such as (25,37,38) and as the classifier performed well with those I did not perform augmentation.
 
 
