@@ -147,62 +147,62 @@ For the  first image ...
 
 | Probability         	|     Prediction	        					| Class number |
 |:---------------------:|:---------------------------------------------:|:---:| 
-|  0.05978591         			|    									| 25|
-| 0.0227606          				|										|29|
-| 0.02238076 				| 										|24|
+|  0.05978591         			|   Road work 									| 25|
+| 0.0227606          				|						Bicycles crossing				|29|
+| 0.02238076 				| Road narrows on the right										|24|
 | 0.02237795 	      			| Bumpy Road					 				|22|
-| 0.02237708				    | Slippery Road      							|30|
+| 0.02237708				    | Beware of ice/snow      							|30|
 
 
 For the second image ... 
 
 | Probability         	|     Prediction	        					| Class number |
 |:---------------------:|:---------------------------------------------:|:---:| 
-| 0.06046296         			| Stop sign   									| 37|
-| 0.02243375      				| U-turn 										|39|
-| 0.02241438    					| Yield											|40|
-| 0.02237213       			| Bumpy Road					 				|18|
-| 0.02237181				    | Slippery Road      							|26|
+| 0.06046296         			| Go straight or left  									| 37|
+| 0.02243375      				| Keep left 										|39|
+| 0.02241438    					| Roundabout mandatory											|40|
+| 0.02237213       			| General caution					 				|18|
+| 0.02237181				    | Traffic signals      							|26|
 
 For the third image ...
 
 | Probability         	|     Prediction	        					| Class number |
 |:---------------------:|:---------------------------------------------:|:---:| 
-|  0.06078676         			| Stop sign   									|18|
-| 0.02236223       				| U-turn 										|26|
-|0.02236222  				| Yield											|27|
-| 0.02236222       			| Bumpy Road					 				|0|
-|  0.02236222 			    | Slippery Road      							|1|
+|  0.06078676         			| General caution   									|18|
+| 0.02236223       				| Traffic signals 										|26|
+|0.02236222  				| Pedestrians											|27|
+| 0.02236222       			| Speed limit (20km/h)					 				|0|
+|  0.02236222 			    | Speed limit (30km/h)     							|1|
 
 For the fourth image ...
 
 | Probability         	|     Prediction	        					| Class number |
 |:---------------------:|:---------------------------------------------:|:---:| 
-| 0.06078423           			| Stop sign   									|11 |
-| 0.02236324      				| U-turn 										|30|
-|  0.02236226  					| Yield											|27|
-| 0.02236226  	      			| Bumpy Road					 				|0|
-| 0.02236226				    | Slippery Road      							|1|
+| 0.06078423           			| Right-of-way at the next intersection   									|11 |
+| 0.02236324      				| Beware of ice/snow 										|30|
+|  0.02236226  					| Pedestrians										|27|
+| 0.02236226  	      			| Speed limit (20km/h)					 				|0|
+| 0.02236226				    | Speed limit (30km/h)      							|1|
 
 For the Fifth image ...
 
 | Probability         	|     Prediction	        					| Class number |
 |:---------------------:|:---------------------------------------------:|:---:| 
-| 0.04011158          			| Stop sign   									| 5|
-| 0.03405076        				| U-turn 										|2|
-| 0.02286245  				| Yield											|3|
-| 0.02259345  	      			| Bumpy Road					 				|4|
-| 0.02258292					    | Slippery Road      							|1|
+| 0.04011158          			| Speed limit (80km/h)   									| 5|
+| 0.03405076        				| Speed limit (50km/h) 										|2|
+| 0.02286245  				| Speed limit (60km/h)											|3|
+| 0.02259345  	      			| Speed limit (70km/h)					 				|4|
+| 0.02258292					    | Speed limit (30km/h)      							|1|
 
 For the sixth image ...
 
 | Probability         	|     Prediction	        					| Class number |
 |:---------------------:|:---------------------------------------------:|:---:| 
-| 0.06078682,         			| Stop sign   									|38|
-| 0.02236222,       				| U-turn 										|0|
-| 0.02236222,  				| Yield											|1|
-| 0.02236222,       			| Bumpy Road					 				|2|
-|  0.02236222					    | Slippery Road      							|3|
+| 0.06078682,         			| Keep right  									|38|
+| 0.02236222,       				| Speed limit (20km/h) 										|0|
+| 0.02236222,  				| Speed limit (30km/h)										|1|
+| 0.02236222,       			| Speed limit (50km/h)				 				|2|
+|  0.02236222					    | Speed limit (60km/h)      							|3|
 
 
 ### (Optional) Visualizing the Neural Network (See Step 4 of the Ipython notebook for more details)
