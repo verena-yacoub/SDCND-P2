@@ -59,27 +59,35 @@ Here is an exploratory visualization of the data set. First the code is displayi
   and a picture of grayscaling+normalization with the corresponding labels
   ![alt text][image4]
   
-* Note For data augmentation: as realized from the histogram above, some classes have few training examples which might cause defects in the training process, however data augmentation is not performed in this code, but a suggestion for it would be to augment the data of the classes with less examples after editing the existing samples randomly to balance the training data. //
-  Noting also: that in the new images chosen I was keen to include some samples of the classes with few training examples such as (25,37,38) and as the classifier performed well with those I did not perform augmentation.
+* Note For data augmentation: as realized from the histogram above, some classes have few training examples which might cause defects in the training process, however data augmentation is not performed in this code, but a suggestion for it would be to augment the data of the classes with less examples after editing the existing samples randomly to balance the training data.
+  
+// Noting also: that in the new images chosen I was keen to include some samples of the classes with few training examples such as (25,37,38) and as the classifier performed well with those I did not perform augmentation.
 
 
 
 
 #### 2. Describe what your final model architecture looks like including model type, layers, layer sizes, connectivity, etc.) Consider including a diagram and/or table describing the final model.
 
-My final model consisted of the following layers:
+My final model is like the LeNet lab solution:
 
 | Layer         		|     Description	        					| 
 |:---------------------:|:---------------------------------------------:| 
-| Input         		| 32x32x3 RGB image   							| 
-| Convolution 3x3     	| 1x1 stride, same padding, outputs 32x32x64 	|
+| Input         		| 32x32x1 GRAY image   							| 
+| Convolution 5x5     	| 1x1 stride, padding, outputs 28x28x6	|
 | RELU					|												|
-| Max pooling	      	| 2x2 stride,  outputs 16x16x64 				|
-| Convolution 3x3	    | etc.      									|
-| Fully connected		| etc.        									|
-| Softmax				| etc.        									|
-|						|												|
-|						|												|
+| Max pooling	      	| 2x2 stride,  outputs 14x14x6				|
+| Convolution 5x5 	    | 1x1 stride, padding, outputs 10x10x16		|
+| RELU					|												|
+| Max pooling	      	| 2x2 stride,  outputs 5x5x16				|
+| Fully connected | input 400 output 120|
+|  RELU					|												|
+|	Dropout | keep probability 0.5 |
+|	Fully connected | input 120 output 84|
+|  RELU					|												|
+|	Dropout | keep probability 0.5 |
+|	Fully connected | input 84 output 43|
+
+ 
  
 
 
