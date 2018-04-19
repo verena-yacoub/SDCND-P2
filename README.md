@@ -213,3 +213,7 @@ We can see that each feature map is performing different feature extracting appr
 For example, regarding the first layer displayed here, we can tell that the layer is performing blurring and edge detection from different angles
 ![alt text][image6]
 
+### References 
+* udacity calssroom 
+* LeNET lab solution 
+* https://github.com/jeremy-shannon/CarND-Traffic-Sign-Classifier-Project/blob/master/Traffic_Sign_Classifier.ipynb
