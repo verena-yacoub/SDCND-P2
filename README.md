@@ -74,16 +74,16 @@ My final model is like the LeNet lab solution:
 |:---------------------:|:---------------------------------------------:| 
 | Input         		| 32x32x1 GRAY image   							| 
 | Convolution 5x5     	| 1x1 stride, padding, outputs 28x28x6	|
-| RELU					|												|
+| RELU					|		activation										|
 | Max pooling	      	| 2x2 stride,  outputs 14x14x6				|
 | Convolution 5x5 	    | 1x1 stride, padding, outputs 10x10x16		|
-| RELU					|												|
+| RELU					|	activation											|
 | Max pooling	      	| 2x2 stride,  outputs 5x5x16				|
 | Fully connected | input 400 output 120|
 |  RELU					|												|
 |	Dropout | keep probability 0.5 |
 |	Fully connected | input 120 output 84|
-|  RELU					|												|
+|  RELU					|			activation								|
 |	Dropout | keep probability 0.5 |
 |	Fully connected | input 84 output 43|
 
@@ -93,14 +93,17 @@ My final model is like the LeNet lab solution:
 
 #### 3. Describe how you trained your model. The discussion can include the type of optimizer, the batch size, number of epochs and any hyperparameters such as learning rate.
 
-To train the model, I used an ....
+* optimizer: ADAM optimizer
+* Batch size: 100
+* Number of Epochs: 15
+* Learning rate: 0.001
 
 #### 4. Describe the approach taken for finding a solution and getting the validation set accuracy to be at least 0.93. Include in the discussion the results on the training, validation and test sets and where in the code these were calculated. Your approach may have been an iterative process, in which case, outline the steps you took to get to the final solution and why you chose those steps. Perhaps your solution involved an already well known implementation or architecture. In this case, discuss why you think the architecture is suitable for the current problem.
 
 My final model results were:
-* training set accuracy of ?
-* validation set accuracy of ? 
-* test set accuracy of ?
+* training set accuracy of 0.990
+* validation set accuracy of 0.957
+* test set accuracy of 0.932
 
 If an iterative approach was chosen:
 * What was the first architecture that was tried and why was it chosen?
